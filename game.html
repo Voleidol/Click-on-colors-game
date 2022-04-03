@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style_game.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <div class="start">
+                <button>Начать</button>
+                <span class="sp">Начиная с "1" нажимайте на числа до тех пор, пока не дойдете до последнего</span>
+            </div>
+            
+            <div class="timer">
+                <div class="change">Времени осталось:</div>
+                <div class="seconds"></div>           
+            </div>
+            
+            <div class="block">
+                <table class="table" style="border: 1px solid black;">
+                    <tr class="tr">
+                        <td class="td" style="font-size: 26px;color: rgb(98, 255, 0);"></td>
+                        <td class="td" style="font-size: 29px;color: rgb(85, 218, 3);"></td>
+                        <td class="td" style="font-size: 18px;color: rgb(228, 202, 55);"></td>
+                        <td class="td" style="font-size: 32px;color: rgb(57, 60, 235);"></td>
+                        <td class="td" style="font-size: 21px;color: rgb(240, 45, 103);"></td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td" style="font-size: 29px;color: rgb(151, 12, 243);"></td>
+                        <td class="td" style="font-size: 17px;color: rgb(70, 6, 25);"></td>
+                        <td class="td" style="font-size: 33px;color: rgba(221, 191, 21, 0.63);"></td>
+                        <td class="td" style="font-size: 25px;color: rgb(45, 194, 240);"></td>
+                        <td class="td" style="font-size: 21px;color: rgb(187, 97, 124);"></td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td" style="font-size: 33px;color: rgb(203, 171, 224);"></td>
+                        <td class="td" style="font-size: 20px;color: rgb(83, 29, 119);"></td>
+                        <td class="td" style="font-size: 18px;color: rgb(11, 122, 35);"></td>
+                        <td class="td" style="font-size: 31px;color: rgb(189, 129, 19);"></td>
+                        <td class="td" style="font-size: 24px;color: rgb(19, 50, 134);"></td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td" style="font-size: 15px;color: rgb(224, 197, 243);"></td>
+                        <td class="td" style="font-size: 35px;color: rgb(33, 0, 54);"></td>
+                        <td class="td" style="font-size: 21px;color: rgb(243, 12, 185);"></td>
+                        <td class="td" style="font-size: 35px;color: rgb(97, 243, 12);"></td>
+                        <td class="td" style="font-size: 16px;color: rgb(11, 74, 190);"></td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td" style="font-size: 32px;color: rgb(250, 76, 76);"></td>
+                        <td class="td" style="font-size: 27px;color: rgb(185, 167, 0);"></td>
+                        <td class="td" style="font-size: 18px;color: rgb(55, 148, 12);"></td>
+                        <td class="td" style="font-size: 34px;color: rgb(243, 135, 12);"></td>
+                        <td class="td" style="font-size: 22px;color: rgb(85, 3, 3);"></td>
+                    </tr>
+                </table>                              
+            </div>
+
+            <div class="return">
+                <div class="loose">Вы проиграли!</div>
+                <button>Начать сначала</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
